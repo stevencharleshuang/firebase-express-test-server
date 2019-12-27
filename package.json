@@ -1,0 +1,27 @@
+{
+  "name": "firebase-express-test-server",
+  "version": "1.0.0",
+  "description": "Test app for a firebase-express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevencharleshuang/firebase-express-test-server.git"
+  },
+  "author": "Steven Charles Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevencharleshuang/firebase-express-test-server/issues"
+  },
+  "homepage": "https://github.com/stevencharleshuang/firebase-express-test-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7"
+  }
+}
